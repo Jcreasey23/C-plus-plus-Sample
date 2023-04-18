@@ -12,6 +12,7 @@ private:
     // Establish type of phone?
 
     // Establish Provider Name
+    std:: string provider;
 
 
 
@@ -19,7 +20,7 @@ public:
 
     Phone();    // Default Constructor
 
-    Phone(std:: string num, std:: string cust); // Overloaded constructor
+    Phone(std:: string num, std:: string cust_f, std:: string cust_l, std:: string provider); // Overloaded constructor
 
 
     // Getter Functions
